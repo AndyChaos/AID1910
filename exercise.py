@@ -3,7 +3,7 @@
 """
 from threading import Thread
 from time import sleep,ctime
-
+"方案3"
 class MyThread(Thread):
     def __init__(self,target,args,kwargs):
         super().__init__()  # 此行不许动
